@@ -1,7 +1,10 @@
-
+seconds = 60;
+minutes = 60;
 hours= parseInt(prompt("Type in any amount of hours?"));
 console.log(hours);
-seconds= hours * 60;
-alert(`There are ${seconds} seconds in ${hours} hours.`);
+howMany = hours * minutes
+time = howMany * seconds;
+alert(`There are ${time} seconds in ${hours} hours.`);
+
 
 
